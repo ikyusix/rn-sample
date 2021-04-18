@@ -1,11 +1,13 @@
 import React from "react";
-import {Text, StyleSheet, View} from "react-native";
+import {Text, StyleSheet, View, Button} from "react-native";
 
 const HomeScreen = () => {
-    const greeting = 'test';
     return <View>
         <Text style={styles.text}>HomeScreen</Text>
-        <Text>{greeting}</Text>
+        <Button
+            onPress={() => console.log("pressed")}
+            title="Go to component demo"
+        />
     </View>
 };
 
