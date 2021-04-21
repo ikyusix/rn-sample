@@ -21,8 +21,9 @@ const styles = StyleSheet.create({
     },
     textTwoStyle: {
         borderWidth: 3,
-        borderColor: 'red',
-        alignSelf: 'center'
+        borderColor: 'red'
+        // posision: 'absolute' // deprecated
+
     },
     textThreeStyle: {
         borderWidth: 3,
