@@ -14,7 +14,8 @@ const styles = StyleSheet.create({
         borderWidth: 3,
         borderColor: 'black',
         margin: 10,
-        alignItems: 'center'
+        flexDirection: 'row',
+        height: 200
     },
     textStyle: {
         borderWidth: 1,
