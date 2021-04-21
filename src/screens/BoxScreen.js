@@ -14,20 +14,21 @@ const styles = StyleSheet.create({
         // borderWidth: 3,
         // borderColor: 'black',
         height: 306,
-        flexDirection: 'row'
+        flexDirection: 'row',
+        justifyContent: 'space-between'
     },
     textOneStyle: {
         borderWidth: 3,
         borderColor: 'rgb(220,87,87)',
         backgroundColor: 'rgb(210,146,146)',
-        flex: 1,
+        // flex: 1,
         height: 150
     },
     textTwoStyle: {
         borderWidth: 3,
         borderColor: 'rgb(127,220,87)',
         backgroundColor: 'rgb(163,210,146)',
-        flex: 1,
+        // flex: 1,
         height: 150,
         top: 150
     },
@@ -35,7 +36,7 @@ const styles = StyleSheet.create({
         borderWidth: 3,
         borderColor: 'rgb(87,109,220)',
         backgroundColor: 'rgb(146,162,210)',
-        flex: 1,
+        // flex: 1,
         height: 150
     }
 })
