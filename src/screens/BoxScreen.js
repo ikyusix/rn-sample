@@ -3,7 +3,9 @@ import { View, Text, StyleSheet } from "react-native";
 
 const BoxScreen = () => {
     return <View style={styles.viewStyle}>
-        <Text style={styles.textStyle}>Box screen</Text>
+        <Text style={styles.textStyle}>Child #1</Text>
+        <Text style={styles.textStyle}>Child #2</Text>
+        <Text style={styles.textStyle}>Child #3</Text>
     </View>
 }
 
@@ -11,12 +13,14 @@ const styles = StyleSheet.create({
     viewStyle: {
         borderWidth: 3,
         borderColor: 'black',
-        margin: 10
+        margin: 10,
+        alignItems: 'center'
     },
     textStyle: {
         borderWidth: 1,
         borderColor: 'red',
-        margin: 20
+        marginHorizontal: 20,
+        marginVertical: 10
     }
 })
 
